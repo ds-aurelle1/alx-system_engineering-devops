@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -p | sed -e ':a' -e 'N' -e '$!ba' -e 's/\n/, /g'
